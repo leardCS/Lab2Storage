@@ -41,7 +41,7 @@ public class Lab2 {
 		sorted.addAll(set);
 		String[] sortedArr = sorted.toArray(new String[sorted.size()]);
 		
-		//Counting how many times an artist appears on the Top 200
+		//Counting how many times an artist appears on the Top 200, not including features
 		for(int i=0; i<133; i++) {
 			for(int y=0; y<200; y++) {
 					if(temp[y].equals(sortedArr[i])) counter[i]++;
